@@ -6,6 +6,16 @@
 ## 📌 Project Overview
 This project implements a high-speed, predictive vehicle safety controller on an **Artix-7 FPGA**. Unlike traditional ECUs that react to accidents, this system uses a **50-tree Random Forest model** to detect dangerous driving patterns (drift, erratic steering) *before* a collision occurs.
 
+## 🏗️ System Architecture
+The system follows a strict 7-stage parallel pipeline architecture, ensuring deterministic latency of **42ms**. The "Health Monitor" runs in parallel to the ML engine, providing a fail-safe mechanism compliant with **ISO 26262 ASIL-D**.
+
+![System Flowchart](flowchart.png)
+
+## 📊 Technical Specifications
+A summary of the key performance metrics achieved on the Artix-7 FPGA.
+
+![Project Datasheet](datasheet.png)
+
 ### 🚀 Key Features
 *   **Ultra-Low Latency:** Deterministic **42ms** response time (4x faster than microcontrollers).
 *   **Edge AI:** Custom **Q8.8 Fixed-Point** Inference Engine running directly on hardware.
