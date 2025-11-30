@@ -9,12 +9,12 @@ This project implements a high-speed, predictive vehicle safety controller on an
 ## 🏗️ System Architecture
 The system follows a strict 7-stage parallel pipeline architecture, ensuring deterministic latency of **42ms**. The "Health Monitor" runs in parallel to the ML engine, providing a fail-safe mechanism compliant with **ISO 26262 ASIL-D**.
 
-![System Flowchart](flowchart.png)
+![System Flowchart](1764506915291.jpg)
 
 ## 📊 Technical Specifications
 A summary of the key performance metrics achieved on the Artix-7 FPGA.
 
-![Project Datasheet](datasheet.png)
+![Project Datasheet](1764506909066.jpg)
 
 ### 🚀 Key Features
 *   **Ultra-Low Latency:** Deterministic **42ms** response time (4x faster than microcontrollers).
