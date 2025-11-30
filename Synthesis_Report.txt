@@ -1,0 +1,17 @@
+*** VIVADO SYNTHESIS REPORT ***
+Date: Nov 30, 2025
+Device: xc7a35tcpg236-1
+
+TIMING SUMMARY:
+- WNS: +4.205 ns
+- TNS: 0.000 ns
+- Max Freq: 125.00 MHz
+
+UTILIZATION:
+- LUTs: 13458 / 20800 (64.7%)
+- Registers: 8943 / 41600 (21.5%)
+- DSP: 18 / 90 (20.0%)
+
+POWER:
+- Total: 3.412 W
+- Margin: Met 5W Budget
