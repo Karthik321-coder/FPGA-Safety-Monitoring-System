@@ -2,9 +2,6 @@
 
 **An Advanced ML-Driven Anomaly Detection System with Self-Diagnosis (ISO 26262 ASIL-D Ready)**
 
-![Status](https://img.shields.io/badge/Status-Prototype_Ready-green)
-![Platform](https://img.shields.io/badge/FPGA-Artix--7-blue)
-![Latency](https://img.shields.io/badge/Latency-42ms-brightgreen)
 
 ## 📌 Project Overview
 This project implements a high-speed, predictive vehicle safety controller on an **Artix-7 FPGA**. Unlike traditional ECUs that react to accidents, this system uses a **50-tree Random Forest model** to detect dangerous driving patterns (drift, erratic steering) *before* a collision occurs.
@@ -15,11 +12,6 @@ This project implements a high-speed, predictive vehicle safety controller on an
 *   **Fault Tolerance:** 5-Layer "Defense-in-Depth" architecture to detect stuck sensors and clock failures.
 *   **Cost Effective:** BOM cost of **$118**, making advanced safety accessible for the Indian market.
 
-## 📂 Repository Structure
-*   `src/` - Verilog RTL source codes (Top module, FSM, Sensor Interface).
-*   `tb/` - SystemVerilog testbenches for verification.
-*   `python/` - Machine Learning training scripts and accuracy analysis.
-*   `docs/` - Project Report and timing diagrams.
 
 ## 🛠️ Technical Specs
 | Metric | Value |
@@ -30,9 +22,6 @@ This project implements a high-speed, predictive vehicle safety controller on an
 | **ML Model** | Random Forest (50 Trees, Depth 8) |
 | **Safety Standard** | Designed for ISO 26262 ASIL-D |
 
-## 🎥 Simulation Demo
-*(Add a link to your YouTube demo video here if available)*
 
 ## 👨‍💻 Team
-*   **[Your Name]** - FPGA Architecture & ML Integration
-*   [Teammate Name] - Hardware Design & Testing
+*   **[KARTHIK M A]** - FPGA Architecture & ML Integration
